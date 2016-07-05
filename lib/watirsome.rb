@@ -64,6 +64,11 @@
 #   end
 #
 #   page = Page.new(browser)
+#   puts page.divs.map(&:class_name)
+#   puts visible_div.class_name
+#   puts visible_div.visible?
+#   puts invisible_div.class_name
+#   puts invisible_div.visible?
 #   page.visible_div.visible?   #=> true
 #   page.invisible_div.visible? #=> false
 #

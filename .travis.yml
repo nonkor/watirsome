@@ -3,5 +3,6 @@ language: ruby
 rvm:
   - 2.3.0
 before_script:
+  - phantomjs -v
   - mkdir ~/.yard
   - bundle exec yard config load_plugins true
